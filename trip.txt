@@ -1,0 +1,5 @@
+manali,
+japan;
+indo
+paris
+france
