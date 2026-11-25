@@ -1,0 +1,19 @@
+{
+  "name": "tripmate-workspace",
+  "version": "1.0.0",
+  "description": "TripMate — Travel Itinerary Planner with Shared Trips & Budget Tracking",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "test:server": "npm test --prefix server",
+    "seed": "npm run seed --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "author": "TripMate Team",
+  "license": "ISC"
+}
